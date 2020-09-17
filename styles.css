@@ -1,0 +1,45 @@
+body {
+    display: flex;
+    justify-content: center;
+    background-color: skyblue;
+    margin: 0;
+    min-height: 100vh;
+}
+
+.stop-light {
+    background-color: #a6a6a6; 
+    display: inline-block;
+    margin: auto 0;
+    padding: 20px 20px 10px 20px;
+}
+
+.red-light {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: #8b0000;
+    margin-bottom: 15px;
+    padding: 25px;
+    animation: red-color-me-in 7s infinite;
+}
+
+.yellow-light {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: #525100;
+    margin-bottom: 15px;
+    padding: 25px;
+    animation: yellow-color-me-in 10s infinite;
+}
+
+.green-light {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: #013220;
+    margin-bottom: 15px;
+    padding: 25px;
+    animation: green-color-me-in 12s infinite;
+}
+
