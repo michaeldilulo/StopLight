@@ -43,3 +43,29 @@ body {
     animation: green-color-me-in 12s infinite;
 }
 
+@keyframes red-color-me-in {
+0% {
+    background-color: #800000;
+}
+100% {
+    background-color: red;
+}
+}
+
+@keyframes yellow-color-me-in {
+    0% {
+        background-color: #525100;
+    }
+    100% {
+        background-color: yellow;
+    }
+}
+
+@keyframes green-color-me-in {
+    0% {
+        background-color: #013220
+    }
+    100% {
+        background-color: green;
+    }
+}
